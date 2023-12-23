@@ -1,0 +1,33 @@
+body {
+    background-color: olivedrab;
+}
+
+#loginform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    padding:0.2em;
+    margin:0.2em;
+}
+
+#palindromeform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 16vh;
+    padding:0.2em;
+    margin:0.2em;
+}
+
+button {
+    background-color:teal;
+    color:black
+}
+
+button:hover {
+    background-color: cyan;
+    color:gray;
+    padding: 8px 16px;
+    transition-duration: 0.2s;
+}

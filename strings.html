@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href = "stringscss.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>palindrome checker</title>
+</head>
+<body>
+    <div id = "armingsequence">
+        <label for = "arm">arming status: </label>
+        <input type = "button" name = "arm" id = "arm" value = "disarmed">
+    </div>
+    <div id = "palindromeinput">
+        <input id = "wordinput" type = "text">
+        <button id = "checkbutton">check for palindrome</button>
+    </div>
+    <div id = "palindromeoutput">
+        <p id = "resulttext"></p>
+    </div>
+
+    <div id = "palindromelists">
+        <div id = positivecontainer>
+            <h3>palindromes</h3>
+        <p id = "palindromelist"></p>
+        </div>
+        <div id = negativecontainer>
+            <h3>non-palindromes</h3>
+        <p id = "nonpalindromelist"></p>
+        </div>
+    </div>
+    <audio id="fail-sound" src="fail.mp3">
+    </audio>
+    <audio id="success-sound" src="success.mp3">
+    </audio>
+
+</body>
+<script src="strings.js"></script>
+</html>
